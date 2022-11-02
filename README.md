@@ -7,3 +7,7 @@ Steps to reproduce:
 4. see there is an Exception about a missing serializer
 5. restart the application
 6. query localhost:8080/hello/another again -> works
+7. now comment out the same lines again
+8. query localhost:8080/hello/another again -> 404
+9. rm the comments again 
+10. query localhost:8080/hello/another again -> missing serializer again
